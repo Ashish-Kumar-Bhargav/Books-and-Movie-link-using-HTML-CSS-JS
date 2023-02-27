@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommend</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!------------------------------------ ------------nav-bar----------------------------------------->
+  <section class="nav-bar" id="nav-bar">
+
+    <div class="nav-bar-1">
+
+      <img class="logo" src="./img/logo.png" alt="" srcset="">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About us </a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
+
+
+  </section>
+  <!-- ------------------------------------home------------------------------------- -->
+  <!-- Define the slideshow container -->
+  <div id="slideshow">
+    <div class="slide-wrapper">
+
+      <!-- Define each of the slides
+		and write the content -->
+      <div class="slide">
+        <h1 class="slide-number">
+          <img src="./img/e4.jpg" alt="" srcset="" style="width: 100%;
+                margin-top: -21px;">
+        </h1>
+        <h1 class="heading">Welcome to Recommend</h1>
+        <p class="head">We recommend books and <br> movies of your favourite genre. </p>
+
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          <img src="./img/hd2.webp" alt="" srcset="" style="width: 100%;
+          margin-top: -21px;">
+        </h1>
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          <img src="./img/hd1.jpg" alt="" srcset="" style="width: 100%;
+          margin-top: -21px;">
+        </h1>
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          <img src="./img/hd3.jpg" alt="" srcset="" style="width: 100%;
+          margin-top: -21px;">
+        </h1>
+      </div>
+    </div>
+  </div>
+  <section class="form">
+    <h1>Recommendations for-</h1>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="choice" id="exampleRadios1" value="option1" checked
+        style="margin-top: 0.65rem;">
+      <label class="form-check-label" for="book">
+        Books
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="choice" id="exampleRadios2" value="option2"
+        style="margin-top: 0.65rem;">
+      <label class="form-check-label" for="movies">
+        Movies
+      </label>
+
+    </div>
+    <button type="button" class="but" onclick="app()">
+      <p style="margin-top: 15px; " class="but-text">Submit</p>
+      <span class="square"></span>
+    </button>
+
+  </section>
+  <!-------------------------------------------Recommendations-------------------------------------->
+  <section class="recommendations">
+    <h1 class="heading-2"
+      style="text-align: center; font-weight: 800; font-family: 'Times New Roman', Times, serif; font-size: 79px;">
+      Recommendations</h1>
+
+    <div class="container" id="service1">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <img src="./img/img1.jpg" alt="">
+            <h2 class="heading-3" style="text-align: center;">Adventure</h2>
+            <p>1.Treasure Island by Robert Louis Stevenson</p>
+            <p>2.Journey to the Center of the Earth by Jules Verne</p>
+            <p>3.The Count of Monte Cristo by Alexandre Dumas</p>
+            <p>4.Heart of Darkness by Joseph Conrad</p>
+            <p>5.Hatchet by Gary Paulsen</p>
+            <a href="https://reedsy.com/discovery/blog/best-adventure-books">MORE RECOMMENDATIONS</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <img src="img/img2.png" alt="">
+            <h2 class="heading-3" style="text-align: center;">Mystery</h2>
+            <p>1.And Then There Were None by Agatha Christie.</p>
+            <p>2.The Big Sleep by Raymond Chandler</p>
+            <p>3.In Cold Blood by Truman Capote</p>
+            <p>4.Anatomy of a Murder by Robert Traver</p>
+            <p>5.Tinker, Tailor, Soldier, Spy by John le Carré</p>
+            <a href="https://reedsy.com/discovery/blog/best-mystery-books">MORE RECOMMENDATIONS</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <img src="img/img3.jpg" alt="">
+            <h2 class="heading-3">Horror</h2>
+            <p>1.Salem’s Lot by Stephen King</p>
+            <p>2.Those Across the River by Christopher Buehlman</p>
+            <p>3.The Exorcist by William Peter</p>
+            <p>4.The Ruins by Scott Smith</p>
+            <p>5 The Haunting of Hill House by Shirley Jackson</p>
+            <a href="https://www.rd.com/list/scariest-books/">MORE RECOMMENDATIONS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container" id="service2">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box-1">
+            <img src="img/img4.jpg" alt="">
+            <h2 class="heading-3">Crime</h2>
+            <p class="center">1. The Pale Blue Eye (2022)</p>
+            <p class="center">2. Glass Onion (2022)</p>
+            <p class="center">3. Knives Out (2019)</p>
+            <p class="center">4. The Godfather (1972)</p>
+            <p class="center">5. Pulp Fiction (1994)</p>
+            <a href="https://www.imdb.com/search/title/?genres=crime&title_type=feature&explore=genres">MORE
+              RECOMMENDATIONS</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-1">
+            <img src="img/img5.jpg" width="100%" alt="">
+            <h2 class="heading-3">Historical</h2>
+            <p>1. Saving Private Ryan (1998)</p>
+            <p>2. Gladiator (2000)</p>
+            <p>3. Schindler's List (1993)</p>
+            <p>4. Blood Diamond (2006)</p>
+            <p>5. Apollo 13 (I) (1995)</p>
+            <a href="https://www.imdb.com/search/title/?genres=history&title_type=feature&explore=genres"> MORE
+              RECOMMENDATIONS</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-1">
+            <img src="img/img6.jpg" alt="">
+            <h2 class="heading-3">Thriller</h2>
+            <p>1. Bullet Train (2022)</p>
+            <p>2. The Batman (2022)</p>
+            <p>3. Violent Night (2022)</p>
+            <p>4. Parasite (2019)</p>
+            <p>5. Don't Say a Word (2001)</p>
+            <a href="https://www.elle.com/uk/life-and-culture/g32998706/best-thriller-movies/">MORE
+              RECOMMENDATIONS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+</body>
+
+</html>
